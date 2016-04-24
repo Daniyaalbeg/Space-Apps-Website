@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rocket Sim - Live the Launch</title>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="Cesium-1.20/Build/Cesium/Cesium.js"></script>
+  <script src="app.js"></script>
+  <style>
+      @import url(Cesium-1.20/Build/Cesium/Widgets/widgets.css);
+      html, body, #cesiumContainer {
+          width: 1440px; height: 600px; margin: 0; padding: 0; overflow: visible;
+      }
+  </style>
+</head>
+<body>
+<nav class="top-bar fixed">
+ <div class="container-fluid">
+ <!-- Brand and toggle get grouped for better mobile display -->
+ <div class="navbar-header">
+ <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+ <span class="sr-only">Toggle navigation</span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ </button>
+ <a class="navbar-brand" href="#">Rocket Sim</a>
+ </div>
+
+ <!-- Collect the nav links, forms, and other content for toggling -->
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ <ul class="nav navbar-nav">
+ <li class="active"><a href="index.html">Launch Experience <span class="sr-only">(current)</span></a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="3Dmodel.html" target="3Dmodel.html">Rocket Models</a></li>
+ <li><a href="locations.html">Launch Sites</a></li>
+
+
+ </div><!-- /.navbar-collapse -->
+ </div><!-- /.container-fluid -->
+ </nav>
+
+ <div class="container">
+ <div class="row">
+ <div class="col-md-12">
+ <!-- this column will hold the jumbotron and the main content below it -->
+ <div class="row">
+ <div class="col-md-4">
+ <!-- this column will hold the login form -->
+ </div>
+ <div class="col-md-4">
+ <!-- this column will hold a heading with a button -->
+ </div>
+ <div class="col-md-4">
+ <!-- this column will hold a heading with an empty image -->
+ </div>
+ </div>
+ </div>
+ </div>
+<!-- start footer -->
+</div>
+  <div id="cesiumContainer"></div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
